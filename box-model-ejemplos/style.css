@@ -1,0 +1,28 @@
+.ejemplo-box{
+    border: 5px solid rgb(63, 0, 0);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: rgba(65, 0, 0, 0.568);
+    display: inline-block;
+    transition: 1s;
+}
+
+.ejemplo-box:hover{
+    transform: scale(1.03);
+    transition: 1s;
+    background-color: rgba(63, 0, 0, 0.836);
+}
+
+.ejemplo-box p{
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.segunda{
+    display: inline-block;
+}

@@ -1,0 +1,15 @@
+.container{
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 600px;
+    height: 100px;
+}
+
+.box{
+    float: right;
+    width: 50px;
+    height: 90px;
+    background-color: cyan;
+    margin: 2px 10px;
+
+}
