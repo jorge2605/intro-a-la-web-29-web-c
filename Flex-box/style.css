@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* eje izquierda a derecha */
+    justify-content: center;
+    /* eje arriba hacia abajo */
+    align-items: center;
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 10px;
+    width: 600px;
+    height: 700px;
+    /* flex-grow:1 ----- es para estirar un elemento seleccionado*/
+    /* flex-shrink:8 ----- se reduce el item seleccionado */
+    gap: 5px; /*aplica espacio entre items*/
+}
+
+.flex{
+    background-color: rgb(163, 218, 255);
+    color: white;
+    font-family: Roboto;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 13px;
+    font-weight: 800;
+}
